@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+		<Description>Very simple implementation of a state machine that can handle complex state</Description>
+		<RepositoryUrl>https://github.com/davebrunger/WS.StateMachines</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/davebrunger/WS.StateMachines</PackageProjectUrl>
+		<Authors>David Brunger</Authors>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\README.md" Pack="true" PackagePath="\"/>
+	</ItemGroup>
+
+</Project>
